@@ -15,8 +15,6 @@
 import datetime
 import motor.motor_asyncio
 from .. import MONGODB_URI
-from pymongo import Connection
-connection = Connection('localhost',27017)
 
 SESSION_NAME = 'videoconvertor'
 
